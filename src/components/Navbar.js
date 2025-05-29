@@ -36,6 +36,7 @@ const Navbar = () => {
     navClass += navState === 'absolute' ? ' navbar--absolute' : ' navbar--fixed';
     if (navState === 'absolute') navClass += ' navbar--transparent';
   }
+  if (menuOpen) navClass += ' menu-open';
 
   return (
     <nav className={navClass} style={{ fontFamily: 'Poppins, Arial, sans-serif' }}>

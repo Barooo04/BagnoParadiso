@@ -137,8 +137,24 @@
     z-index: 1100;
     border-radius: 0;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-    background: #fff !important;
+    background: transparent !important;
     overflow-x: hidden;
+    transition: background 0.3s ease;
+  }
+  .navbar.menu-open {
+    background: #fff !important;
+  }
+  .navbar.menu-open .navbar-burger {
+    color: #1e293b;
+  }
+  .navbar.menu-open .navbar-logo img {
+    filter: none;
+  }
+  .navbar--transparent .navbar-logo img {
+    filter: brightness(100) invert(0);
+  }
+  .navbar--transparent .navbar-burger {
+    color: #fff;
   }
   .navbar-links {
     display: none;

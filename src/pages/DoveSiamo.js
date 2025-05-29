@@ -1,8 +1,13 @@
+import { useEffect } from 'react';
 import './DoveSiamo.css';
 import doveSiamoImg from '../images/canoa.jpg';
 import { Link } from 'react-router-dom';
 
 const DoveSiamo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="dove-siamo-page">
       {/* Hero Section */}

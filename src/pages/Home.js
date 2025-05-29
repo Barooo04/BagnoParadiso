@@ -1,6 +1,6 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import faq from '../images/faq-home.webp';
 import chiSiamo from '../images/chi-siamo.png';
 
@@ -58,6 +58,10 @@ function Accordion() {
 }
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={{ fontFamily: 'Poppins, Arial, sans-serif' }}>
       {/* Hero Section */}

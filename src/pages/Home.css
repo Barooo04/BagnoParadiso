@@ -293,10 +293,11 @@ body, .home-hero, .home-servizi-section, .home-cta-section {
   .home-servizi-list {
     flex-direction: column;
     gap: 16px;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
   }
   .home-servizio-card {
-    min-width: 0;
-    max-width: 100%;
+    max-width: 80% !important;
   }
 }
 
@@ -451,10 +452,6 @@ body, .home-hero, .home-servizi-section, .home-cta-section {
     width: 100%;
     max-width: 350px;
     height: auto;
-  }
-  .home-servizio-card {
-    min-width: 0;
-    max-width: 100%;
   }
 }
 

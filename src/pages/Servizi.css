@@ -265,6 +265,13 @@
   .servizi-cta-btn {
     width: 100%;
   }
+
+  .servizio-card {
+    padding: 16px !important;
+  }
+  .servizio-content {
+    padding: 16px !important;
+  }
 }
 
 .servizi-aggiuntivi-section {
@@ -376,6 +383,7 @@
   }
   .servizio-card {
     border-radius: 16px;
+    padding: 16px !important;
   }
   .servizio-title {
     font-size: 0.98rem;

@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 import './ChiSiamo.css';
 import chiSiamoImg from '../images/canoa.jpg';
 import chiSiamoImg2 from '../images/chi-siamo.png';
 import { Link } from 'react-router-dom';
 
 const ChiSiamo = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="chi-siamo-page">
       {/* Hero Section */}

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './Servizi.css';
 import { Link } from 'react-router-dom';
 import videoServizi from '../images/video-servizi.mp4';
@@ -45,6 +46,10 @@ const servizi = [
 ];
 
 const Servizi = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="servizi-page">
       {/* Hero Section */}

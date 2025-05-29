@@ -293,11 +293,19 @@ body, .home-hero, .home-servizi-section, .home-cta-section {
   .home-servizi-list {
     flex-direction: column;
     gap: 16px;
-    padding-left: 24px !important;
-    padding-right: 24px !important;
   }
   .home-servizio-card {
-    max-width: 80% !important;
+    margin: 0 auto;
+    width: 90% !important;
+  }
+
+  .home-faq-title, .home-faq-subtitle {
+    text-align: center;
+  }
+
+  .home-faq-item {
+    width: 90% !important;
+    margin: 0 auto;
   }
 }
 

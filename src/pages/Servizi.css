@@ -382,6 +382,8 @@
     height: 160px;
   }
   .servizio-card {
+    width: 80% !important;
+    margin: 0 auto;
     border-radius: 16px;
     padding: 16px !important;
   }
@@ -391,10 +393,17 @@
   .servizio-content {
     padding: 10px 4px;
   }
+  .servizi-aggiuntivi-section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
   .servizi-aggiuntivi-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 8px;
     padding: 0 4px;
+  }
+  .servizi-aggiuntivi-grid > div:last-child {
+    grid-column: span 2;
   }
   .servizio-aggiuntivo-box {
     font-size: 0.95rem;

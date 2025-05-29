@@ -166,17 +166,19 @@
 @media (max-width: 700px) {
   .dove-siamo-main-section,
   .dove-siamo-cta-section {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .dove-siamo-main-grid {
     flex-direction: column;
     gap: 10px;
     padding: 0;
   }
-  .dove-siamo-main-title,
-  .dove-siamo-cta-title {
+  .dove-siamo-main-title {
     font-size: 1.1rem;
+  }
+  .dove-siamo-cta-title {
+    font-size: 40px;
   }
   .dove-siamo-main-text,
   .dove-siamo-cta-desc {
